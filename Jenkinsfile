@@ -24,5 +24,6 @@ pipeline {
                         jsonReportDirectory: "target"
             }
         }
+
     }
 }
