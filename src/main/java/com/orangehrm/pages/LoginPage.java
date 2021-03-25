@@ -42,6 +42,7 @@ public class LoginPage {
     }
 
     public static String getErrorMessage(){
+
         return ElementUtil.doGetText(errorMsg);
     }
 }

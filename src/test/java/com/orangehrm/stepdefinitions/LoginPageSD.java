@@ -12,7 +12,8 @@ import org.junit.Assert;
 public class LoginPageSD {
     @Given("I am on the login page")
     public void verifyTitle(){
-    Assert.assertEquals("OrangeHRM", LoginPage.verifyTitle());
+
+        Assert.assertEquals("OrangeHRM", LoginPage.verifyTitle());
     }
 
     @When("I enter correct username in the username field")
@@ -34,7 +35,8 @@ public class LoginPageSD {
 
     @Then("I see the home page")
     public void verifyHomePageTitle() {
-    Assert.assertEquals("OrangeHRM", HomePage.verifyTitle());
+
+        Assert.assertEquals("OrangeHRM", HomePage.verifyTitle());
     }
 
     @When("I enter incorrect username in the username field")
